@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #007ACC; /* VS Code Blue */
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Changed from sticky to fixed */
+  top: 0;
+  left: 0; /* Ensure it starts from the left */
+  width: 100%; /* Automatically adjusts to screen size */
+  margin: 0;
+  padding: 0;
+  z-index: 9999; /* Ensure it stays above all other elements */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Ensure space between logo and profile icon */
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  max-width: auto;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex; /* Keep navigation items in a row */
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 20px; /* Space between items */
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1e90ff; /* Lighter blue on hover */
+}
+
+.profile-dropdown {
+  position: relative; /* Needed for dropdown positioning */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #0066ff;
+  border-radius: 4px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 15px;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile-info h3 {
+  color: #0066ff; /* Blue for username */
+}
+
+.profile-info p {
+  color: #000000; /* Black for other details */
+}
+
+.dropdown-item {
+  margin-top: 40px; /* Space above logout button */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: black; /* Black text for dropdown items */
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 102, 255, 0.1); /* Light blue hover effect */
+}
+
+.logout {
+  color: #ff4444; /* Red for logout text */
+}
+
+.logout:hover {
+  background-color: rgba(255, 68, 68, 0.1); /* Light red hover effect */
+}
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  
+ /* Ensure nav-menu is always visible in mobile view */
+ .nav-menu {
+      display:flex ;
+      flex-direction :row ; 
+      justify-content :flex-end ; 
+      width:auto ;
+ }
+}
