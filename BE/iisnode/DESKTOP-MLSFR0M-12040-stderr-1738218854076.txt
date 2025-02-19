@@ -1,0 +1,24 @@
+PayloadTooLargeError: request entity too large
+    at readStream (C:\inetpub\wwwroot\wingerbackendapi\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\inetpub\wwwroot\wingerbackendapi\node_modules\raw-body\index.js:116:12)
+    at read (C:\inetpub\wwwroot\wingerbackendapi\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\inetpub\wwwroot\wingerbackendapi\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:328:13)
+    at C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\inetpub\wwwroot\wingerbackendapi\node_modules\cors\lib\index.js:188:7)
+PayloadTooLargeError: request entity too large
+    at readStream (C:\inetpub\wwwroot\wingerbackendapi\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\inetpub\wwwroot\wingerbackendapi\node_modules\raw-body\index.js:116:12)
+    at read (C:\inetpub\wwwroot\wingerbackendapi\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\inetpub\wwwroot\wingerbackendapi\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:328:13)
+    at C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\inetpub\wwwroot\wingerbackendapi\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\inetpub\wwwroot\wingerbackendapi\node_modules\cors\lib\index.js:188:7)
+(node:12040) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

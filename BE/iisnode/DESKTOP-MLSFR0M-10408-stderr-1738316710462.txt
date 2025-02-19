@@ -1,0 +1,462 @@
+(node:10408) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '11 November 1111' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'Date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'Date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
+Error updating lead and creating audit log: Error: Incorrect date value: '' for column 'appointment_date' at row 1
+    at PromiseConnection.execute (C:\inetpub\wwwroot\wingerbackendapi\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at C:\inetpub\wwwroot\wingerbackendapi\routes\leadsRoutes.js:77:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: 'UPDATE leads SET leads_id = ?, Date = ?, BDM_NAME = ?, COMPANY_NAME = ?, CUSTOMER_NAME = ?, DESIGNATION = ?, PHONE_NO = ?, EMAIL_ADDRESS = ?, Date_and_Time = ?, BDM_REMARKS_AFTER_MEET = ?, Follow_Up = ?, Feedback = ?, preQuotation_Value = ?, Quotation_Value = ?, Received_Lost = ?, Comment = ?, Status = ?, AssignedTo = ?, LeadComment = ?, SourceComment = ?, Authontic = ?, customer_appoinemnt = ?, appointment_date = ?, appointment_time = ?, after_sales = ?, time = ?, reminder = ?, selfreminder = ?, CloseDate = ?, COMMENTS = ?, HWC = ? WHERE leads_id = ?',
+  sqlState: '22007',
+  sqlMessage: "Incorrect date value: '' for column 'appointment_date' at row 1"
+}
